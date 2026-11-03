@@ -1,0 +1,1545 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "site_metadata": {
+    "title": "CP Real Estate | Building Today. Defining Tomorrow.",
+    "description": "CP Real Estate is a Siliguri developer of residences and commercial spaces, building trust through delivery since 1998.",
+    "url": "https://cprealestate.in",
+    "group": "CP Group",
+    "brand_name": "CP Real Estate",
+    "tagline": "Building Today. Defining Tomorrow.",
+    "founded": 1998,
+    "member": "CREDAI North Bengal",
+    "mission": "Deliver without compromise.",
+    "philosophy": "Precision in every detail.",
+    "vision": "Redefine how quality is experienced.",
+    "contact": {
+      "phone": "+91 97333 88879",
+      "phone_href": "tel:+919733388879",
+      "email": "inquiry@cprealestate.in",
+      "support_email": "support@cprealestate.in",
+      "whatsapp": "919733388879",
+      "whatsapp_href": "https://wa.me/919733388879",
+      "address": [
+        "2nd Floor, Block II, Office Block, The Universe",
+        "Behind Himalayan Kanya Abasan, Eastern By-pass",
+        "Siliguri, West Bengal 734008"
+      ]
+    },
+    "social": {
+      "instagram": "https://www.instagram.com/cprealestate.in/",
+      "facebook": "https://www.facebook.com/cprealestate.in/",
+      "youtube": "https://www.youtube.com/@CPRealEstateSlg",
+      "linkedin": "https://in.linkedin.com/company/cp-real-estate-siliguri"
+    },
+    "stats": [
+      {
+        "value": 27,
+        "suffix": "+",
+        "label": "Years of experience"
+      },
+      {
+        "value": 20,
+        "suffix": "+",
+        "label": "Landmark projects delivered"
+      },
+      {
+        "value": 1200,
+        "suffix": "+",
+        "label": "Happy families"
+      },
+      {
+        "value": 2,
+        "suffix": "M",
+        "label": "Sq. ft. of excellence"
+      }
+    ],
+    "values": [
+      {
+        "title": "Precision",
+        "text": "We deliver every project with exacting standards, ensuring accuracy in design, planning and execution."
+      },
+      {
+        "title": "Craftsmanship",
+        "text": "Every development reflects our commitment to quality construction and refined attention to build excellence."
+      },
+      {
+        "title": "Integrity",
+        "text": "We operate with transparency and honesty, building lasting trust with every stakeholder."
+      },
+      {
+        "title": "Reliability",
+        "text": "Consistent delivery and dependable performance make us a name clients can count on."
+      },
+      {
+        "title": "Detail",
+        "text": "Thoughtful attention to every element ensures superior quality and a seamless experience."
+      },
+      {
+        "title": "Endurance",
+        "text": "We create developments that stand the test of time, both in structure and value."
+      }
+    ]
+  },
+  "design_system": {
+    "color_palette": {
+      "dark_background_tones": {
+        "--night": "#0b1220",
+        "--night-indigo": "#0e1630",
+        "--ink": "#172238",
+        "--ink-soft": "#1f2d49",
+        "--graphite": "#3d3e3f"
+      },
+      "estate_green_tones": {
+        "--estate": "#222f13",
+        "--estate-lift": "#2f4019",
+        "--theme-estate-night": "#0f4235",
+        "--theme-estate-ink": "#14564a",
+        "--theme-estate-ink-soft": "#1b6759",
+        "--theme-estate-primary": "#006837",
+        "--theme-estate-lift": "#0b7d47"
+      },
+      "gold_brass_tones": {
+        "--brass": "#b89a5e",
+        "--brass-light": "#d8c08a",
+        "--brass-deep": "#7a6230",
+        "--window-glow": "#f3c77a",
+        "gradient_cp_mark": {
+          "start": "#bd8f6a",
+          "middle": "#cfa583",
+          "end": "#fcd3ad"
+        }
+      },
+      "light_cream_neutral_tones": {
+        "--cream": "#f4eee2",
+        "--paper": "#ece5d6",
+        "--parchment": "#f6f3ec",
+        "--white": "#ffffff",
+        "--mist": "#f3f6fb",
+        "--mint": "#edf4ec",
+        "--sky": "#e3ecf8"
+      },
+      "accent_tones": {
+        "--azure": "#2c5698",
+        "--dusk-peach": "#e8b98f",
+        "--dusk-rose": "#c98f86"
+      },
+      "text_and_border_roles": {
+        "--copy": "#44506a",
+        "--text": "#f4eee2c7",
+        "--text-mute": "#f4eee28f",
+        "--line": "#f4eee224"
+      }
+    },
+    "typography": {
+      "font_families": {
+        "display": "var(--font-playfair), 'Playfair Display', 'Times New Roman', serif",
+        "body": "var(--font-jost), 'Jost', system-ui, sans-serif",
+        "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace"
+      },
+      "font_weights": {
+        "light": 300,
+        "normal": 400,
+        "medium": 500,
+        "semibold": 600
+      },
+      "fluid_type_scale": {
+        "--fs-xs": "clamp(.75rem, .72rem + .15vw, .8125rem)",
+        "--fs-sm": "clamp(.875rem, .84rem + .18vw, .9375rem)",
+        "--fs-base": "clamp(1rem, .96rem + .2vw, 1.125rem)",
+        "--fs-lg": "clamp(1.25rem, 1.1rem + .7vw, 1.625rem)",
+        "--fs-xl": "clamp(1.5rem, 1.15rem + 1.5vw, 2.25rem)",
+        "--fs-2xl": "clamp(1.9rem, 1.25rem + 2.4vw, 3.25rem)",
+        "--fs-title": "clamp(1.9rem, 1.2rem + 2.2vw, 3.1rem)",
+        "--fs-hero": "clamp(2.4rem, 1.3rem + 4vw, 4.75rem)",
+        "--fs-numeral": "clamp(3rem, 1.6rem + 6vw, 6.5rem)"
+      },
+      "letter_spacings": {
+        "eyebrow_tracked": "tracking-[0.24em]",
+        "label_tracked": "tracking-[0.2em]",
+        "tag_tracked": "tracking-[0.18em]",
+        "stat_tracked": "tracking-[0.14em]",
+        "button_tracked": "tracking-[0.2em]"
+      },
+      "line_heights": {
+        "tight": 1.04,
+        "snug": 1.15,
+        "heading": 1.1,
+        "relaxed": 1.625
+      }
+    },
+    "layout_and_spacing": {
+      "--gutter": "clamp(16px, 4vw, 64px)",
+      "--space": "8px",
+      "--section": "clamp(80px, 11vw, 160px)",
+      "--bleed": "calc((100vw - min(100vw, 1360px)) / 2 + var(--gutter))",
+      "container_max_width": "1360px"
+    },
+    "shadows": {
+      "button_glow": "shadow-[0_0_18px_rgba(216,192,138,0.8)]",
+      "step_active_glow": "shadow-[0_0_30px_rgba(216,192,138,0.35)]",
+      "ring_gold_subtle": "shadow-[0_0_0_4px_rgba(184,154,94,0.12)]",
+      "ring_gold_focus": "shadow-[0_0_0_8px_rgba(184,154,94,0.18)]",
+      "card_hover": "shadow-[0_30px_50px_-24px_rgba(23,34,56,0.4)]",
+      "header_scrolled": "shadow-[0_14px_34px_-18px_rgba(0,0,0,0.65)]",
+      "night_elevation": "shadow-[0_8px_30px_rgba(11,18,32,0.5)]"
+    },
+    "button_variants": {
+      "primary": {
+        "classes": "relative inline-flex items-center justify-center gap-3 px-8 py-4 text-[length:var(--fs-xs)] font-normal uppercase tracking-[0.2em] transition-colors duration-500 active:translate-y-px disabled:opacity-50 whitespace-nowrap bg-brass text-night hover:bg-brass-light"
+      },
+      "outline": {
+        "classes": "relative inline-flex items-center justify-center gap-3 px-8 py-4 text-[length:var(--fs-xs)] font-normal uppercase tracking-[0.2em] transition-colors duration-500 active:translate-y-px disabled:opacity-50 whitespace-nowrap border border-cream/40 text-cream hover:bg-cream hover:text-night"
+      },
+      "blue": {
+        "classes": "relative inline-flex items-center justify-center gap-3 px-8 py-4 text-[length:var(--fs-xs)] font-normal uppercase tracking-[0.2em] transition-colors duration-500 active:translate-y-px disabled:opacity-50 whitespace-nowrap bg-ink text-white hover:bg-azure"
+      },
+      "line": {
+        "classes": "relative inline-flex items-center justify-center gap-3 px-8 py-4 text-[length:var(--fs-xs)] font-normal uppercase tracking-[0.2em] transition-colors duration-500 active:translate-y-px disabled:opacity-50 whitespace-nowrap border border-ink/25 text-ink hover:border-ink hover:bg-ink hover:text-white"
+      }
+    }
+  },
+  "navigation": {
+    "header": {
+      "component": "Header",
+      "tag": "header",
+      "classes": "fixed inset-x-0 top-0 z-50 transition-[transform,background-color,border-color] duration-500 ease-out-expo translate-y-0 bg-night/60 backdrop-blur-md border-b border-cream/10",
+      "logo": {
+        "src": "/brand/cp-group-logo-reverse.svg",
+        "alt": "CP Group, CP Real Estate, We build trust",
+        "width": 1290,
+        "height": 680,
+        "classes": "h-12 sm:h-14 lg:h-[68px] w-auto",
+        "href": "/"
+      },
+      "primary_nav": [
+        {
+          "label": "Projects",
+          "href": "/projects",
+          "mega": true
+        },
+        {
+          "label": "About",
+          "href": "/about",
+          "mega": false
+        },
+        {
+          "label": "Commercial",
+          "href": "/commercial",
+          "mega": false
+        },
+        {
+          "label": "Gallery",
+          "href": "/gallery",
+          "mega": false
+        },
+        {
+          "label": "Journal",
+          "href": "/blog",
+          "mega": false
+        },
+        {
+          "label": "Contact",
+          "href": "/contact",
+          "mega": false
+        }
+      ],
+      "cta_button": {
+        "label": "Enquire",
+        "href": "/contact",
+        "variant": "primary",
+        "event": "header_contact",
+        "magnetic": true
+      },
+      "mobile_menu_trigger": {
+        "aria_label": "Open menu / Close menu",
+        "classes": "grid h-10 w-10 place-items-center lg:hidden",
+        "icon": "Hamburger / Close animated"
+      },
+      "mega_menu": {
+        "trigger": "Hover / focus on Projects",
+        "layout": "Grid of ongoing projects with 16:10 aspect ratio image, name, and tagline",
+        "items": [
+          {
+            "slug": "cp-greens",
+            "name": "CP Greens",
+            "tagline": "The Great Upgrade",
+            "image": "/_next/static/media/hero-dusk.0a3f64a6.jpg",
+            "href": "/projects/cp-greens"
+          },
+          {
+            "slug": "europa",
+            "name": "EUROPA",
+            "tagline": "The Ultimate Lifestyle",
+            "image": "/_next/static/media/gate-hero.9ebc8aa1.jpg",
+            "href": "/projects/europa"
+          },
+          {
+            "slug": "cp-anando",
+            "name": "CP Anando",
+            "tagline": "Ease of Living",
+            "image": "/_next/static/media/cp-anando-hero.7cfe87d0.jpg",
+            "href": "/projects/cp-anando"
+          }
+        ]
+      },
+      "mobile_drawer": {
+        "id": "mobile-menu",
+        "role": "dialog",
+        "aria_modal": "true",
+        "animation": "Framer Motion clipPath: inset(0 0 100% 0) -> inset(0 0 0% 0), duration: 0.7s, ease: [0.16, 1, 0.3, 1]",
+        "classes": "fixed inset-0 z-40 flex flex-col justify-between bg-ink px-[var(--gutter)] pb-10 pt-28 lg:hidden",
+        "nav_items": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Projects",
+            "href": "/projects"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Commercial",
+            "href": "/commercial"
+          },
+          {
+            "label": "Gallery",
+            "href": "/gallery"
+          },
+          {
+            "label": "Journal",
+            "href": "/blog"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ],
+        "typography": "font-display text-[clamp(2.5rem,11vw,4rem)] leading-[1.1] text-cream",
+        "cta_button": {
+          "label": "Enquire now",
+          "href": "/contact",
+          "variant": "primary",
+          "classes": "w-full",
+          "event": "mobile_menu_enquire"
+        },
+        "contact_phone": {
+          "display": "+91 97333 88879",
+          "href": "tel:+919733388879"
+        }
+      }
+    }
+  },
+  "page_structure": {
+    "section_1_hero_static": {
+      "name": "Hero Section (Initial / Screen Reader & Fallback)",
+      "classes": "theme-night relative isolate flex min-h-[100dvh] flex-col overflow-hidden bg-night",
+      "background_image": {
+        "src": "/_next/static/media/hero-city.3e5de3f8.jpg",
+        "alt": "",
+        "classes": "-z-20 object-cover object-[60%_70%] opacity-90"
+      },
+      "overlays": [
+        "bg-gradient-to-r from-night via-night/60 to-transparent",
+        "bg-gradient-to-t from-night via-night/10 to-night/55",
+        "bg-[radial-gradient(60%_50%_at_85%_55%,rgba(184,154,94,0.18),transparent_70%)]"
+      ],
+      "location_badge": {
+        "text": "Siliguri, West Bengal",
+        "icon": "MapPin",
+        "classes": "hero-rise eyebrow flex items-center gap-2 text-brass"
+      },
+      "headline": {
+        "line_1": "One man's vision.",
+        "line_2": "A city's elevation.",
+        "classes_line_1": "hero-rise block",
+        "classes_line_2": "hero-rise block pb-1 italic text-brass-light",
+        "container_classes": "mt-6 text-[clamp(2.5rem,1.2rem+3.6vw,4.4rem)] leading-[1.08]"
+      },
+      "subtext": {
+        "text": "Homes and commercial spaces in Siliguri, built with precision in every detail.",
+        "classes": "hero-rise mt-7 max-w-[34ch] text-[length:var(--fs-lg)] leading-relaxed text-cream/85"
+      },
+      "ctas": [
+        {
+          "label": "View projects",
+          "href": "#featured",
+          "classes": "relative inline-flex items-center justify-center gap-3 px-8 py-4 text-[length:var(--fs-xs)] font-normal uppercase tracking-[0.2em] transition-colors duration-500 active:translate-y-px disabled:opacity-50 whitespace-nowrap bg-brass text-night hover:bg-brass-light"
+        },
+        {
+          "label": "Commercial leasing",
+          "href": "/commercial",
+          "classes": "relative inline-flex items-center justify-center gap-3 px-8 py-4 text-[length:var(--fs-xs)] font-normal uppercase tracking-[0.2em] transition-colors duration-500 active:translate-y-px disabled:opacity-50 whitespace-nowrap border border-cream/40 text-cream hover:bg-cream hover:text-night"
+        }
+      ],
+      "stats_counter_bar": [
+        {
+          "value": 27,
+          "suffix": "+",
+          "label": "Years of experience"
+        },
+        {
+          "value": 20,
+          "suffix": "+",
+          "label": "Landmark projects delivered"
+        },
+        {
+          "value": "1,200",
+          "suffix": "+",
+          "label": "Happy families"
+        },
+        {
+          "value": 2,
+          "suffix": "M",
+          "label": "Sq. ft. of excellence"
+        }
+      ]
+    },
+    "section_2_hero_cinematic": {
+      "component": "HeroCinematic",
+      "name": "Hero Cinematic Video Scrubber",
+      "classes": "relative isolate flex min-h-[100dvh] flex-col justify-between overflow-hidden bg-night",
+      "video_sources": {
+        "desktop": "/videos/home/hero-d.mp4",
+        "mobile": "/videos/home/hero-m.mp4",
+        "poster": "/_next/static/media/hero-poster.b0038043.jpg"
+      },
+      "total_duration": "23.8s",
+      "chapters": [
+        {
+          "at_seconds": 0,
+          "place": "CP Greens, Siliguri",
+          "badge": "( Artist's impressions )",
+          "line_1": "One man's vision.",
+          "line_2": "A city's elevation."
+        },
+        {
+          "at_seconds": 5.2,
+          "place": "CP Greens, Siliguri",
+          "badge": "( Artist's impressions )",
+          "line_1": "Siliguri's first",
+          "line_2": "IGBC Gold green building."
+        },
+        {
+          "at_seconds": 9.4,
+          "place": "EUROPA, Siliguri",
+          "badge": "( Artist's impressions )",
+          "line_1": "Townhouses shaped by",
+          "line_2": "European discipline."
+        },
+        {
+          "at_seconds": 13.6,
+          "place": "CP Plaza, Shivmandir",
+          "badge": "( Artist's impressions )",
+          "line_1": "Where the city",
+          "line_2": "shops and works."
+        },
+        {
+          "at_seconds": 17.8,
+          "place": "CP Greens at night",
+          "badge": "( Artist's impressions )",
+          "line_1": "Building today.",
+          "line_2": "Defining tomorrow."
+        }
+      ],
+      "progress_bar": "Tick marks for each chapter with scaleX transition in --brass-light (#d8c08a)",
+      "controls": "Play/Pause toggle with Phosphor Play/Pause fill icons",
+      "ctas": [
+        {
+          "label": "View projects",
+          "href": "#featured"
+        },
+        {
+          "label": "Enquire now",
+          "href": "/contact"
+        }
+      ]
+    },
+    "section_3_blueprint_scroll": {
+      "component": "BlueprintScroll",
+      "name": "The Making of a Home (3D WebGL Architectural Wireframe)",
+      "section_title": "( The making of a home )",
+      "classes": "theme-night relative h-[100dvh] min-h-[560px] overflow-hidden bg-night",
+      "accessibility_summary": "A 3D architectural wireframe assembles as you scroll: a site grid and plot boundary, foundations and a column grid, a concrete frame rising floor by floor, glass and mullions, and finally a finished, lit building among trees, while the camera flies down and around it.",
+      "webgl_engine": {
+        "source_chunk": "extracted/formatted/718.js",
+        "export": "createBlueprint",
+        "renderer": "Three.js WebGLRenderer",
+        "palette": {
+          "bg": "#0b1220",
+          "line": "#e9e2d0",
+          "brass": "#c9a96a",
+          "glass": "#86aad6",
+          "light": "#f3c77a"
+        },
+        "camera": "PerspectiveCamera with fog (70, 260)",
+        "pinned_scroll_duration": "2.6 * window.innerHeight"
+      },
+      "stages": [
+        {
+          "step": 1,
+          "name": "Land",
+          "progress_threshold": 0.0,
+          "line_1": "It begins with",
+          "line_2_em": "open land."
+        },
+        {
+          "step": 2,
+          "name": "Foundation",
+          "progress_threshold": 0.2,
+          "line_1": "A grid is set,",
+          "line_2_em": "footings go in."
+        },
+        {
+          "step": 3,
+          "name": "Frame",
+          "progress_threshold": 0.38,
+          "line_1": "The frame rises,",
+          "line_2_em": "floor by floor."
+        },
+        {
+          "step": 4,
+          "name": "Envelope",
+          "progress_threshold": 0.64,
+          "line_1": "Glass and light",
+          "line_2_em": "close it in."
+        },
+        {
+          "step": 5,
+          "name": "Home",
+          "progress_threshold": 0.82,
+          "line_1": "A building becomes",
+          "line_2_em": "a home."
+        }
+      ],
+      "ui_elements": {
+        "headline_typography": "font-display text-[clamp(2.2rem,1.2rem+4vw,5.25rem)] leading-[1.04] text-cream",
+        "headline_em": "italic text-brass-light",
+        "stage_indicator_names": [
+          "Land",
+          "Foundation",
+          "Frame",
+          "Envelope",
+          "Home"
+        ],
+        "stage_rail": "h-px bg-cream/15 with inner scale-x fill bg-brass",
+        "vignette_radial": "pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(11,18,32,0.75)_100%)]",
+        "bottom_gradient": "pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-night/90 to-transparent"
+      }
+    },
+    "section_4_about_vision": {
+      "name": "About / Legacy Section",
+      "aria_labelledby": "legacy-title",
+      "classes": "theme-day bg-white py-24 lg:py-32",
+      "image": {
+        "src": "/_next/static/media/office-lobby.ad1db994.jpg",
+        "alt": "The CP Group office reception in Siliguri",
+        "aspect_ratio": "4 / 5",
+        "decorative_frame": "border border-brass/50 pl-4 pt-4"
+      },
+      "headline": {
+        "line_1": "Rooted in Siliguri since 1998.",
+        "line_2": "Driven by precision in every detail.",
+        "classes": "text-fluid-title leading-[1.1]"
+      },
+      "paragraphs": [
+        "CP Real Estate is the foundation of CP Group, built on decades of trust, discipline and consistent delivery.",
+        "From an eight-unit residence in Ashrampara to Hill View Residency, The Universe and CP Greens today, every project has built on the last."
+      ],
+      "cta": {
+        "label": "Our story",
+        "href": "/about",
+        "classes": "relative inline-flex items-center justify-center gap-3 px-8 py-4 text-[length:var(--fs-xs)] font-normal uppercase tracking-[0.2em] transition-colors duration-500 active:translate-y-px disabled:opacity-50 whitespace-nowrap bg-brass text-night hover:bg-brass-light"
+      }
+    },
+    "section_5_customer_journey": {
+      "component": "CustomerJourney",
+      "name": "From First Call to Your Keys (The Customer Experience)",
+      "classes": "theme-night relative isolate overflow-clip bg-night py-24 lg:py-36",
+      "headline": "From first call to your keys.",
+      "subtext": "Buying a home has many steps. We walk every one of them with you, so nothing is left to chance and nothing is left to you alone.",
+      "cp_geometric_mark": {
+        "viewBox": "395 262 410 676",
+        "gradient_id": "cp-mark-gold",
+        "gradient_stops": [
+          "#bd8f6a",
+          "#cfa583",
+          "#fcd3ad"
+        ],
+        "path_1": "M804.228 262.341H395.772V730.226L663.709 937.659V728.292L617.116 755.432V842.661L442.366 707.375V308.935H757.634V402.877H804.228Z",
+        "path_2": "M536.296 709.609C536.214 694.693 534.316 357.309 534.316 352.54H580.909C580.909 356.672 582.174 577.485 582.684 671.179L757.634 579.997V491.928H625.72V445.335H804.228V608.254L536.504 747.785Z"
+      },
+      "steps": [
+        {
+          "step_num": "01",
+          "name": "Enquiry",
+          "title": "We listen first",
+          "icon": "ChatCircleText",
+          "text": "Tell us what you need, by call, WhatsApp or the website. Our team calls you back within 24 hours.",
+          "care": [
+            "A call back within 24 hours",
+            "Homes matched to your family and budget"
+          ]
+        },
+        {
+          "step_num": "02",
+          "name": "Details",
+          "title": "Everything, upfront",
+          "icon": "FileText",
+          "text": "Brochures, floor plans, unit areas and RERA details, shared clearly so you can compare with confidence.",
+          "care": [
+            "Floor plans and RERA details",
+            "Answers in plain language"
+          ]
+        },
+        {
+          "step_num": "03",
+          "name": "Site visit",
+          "title": "See it for yourself",
+          "icon": "MapPinLine",
+          "text": "A guided visit at a time that suits you, to walk the site, the sample spaces and the neighbourhood.",
+          "care": [
+            "Visits at your convenience",
+            "Time with the team who builds it"
+          ]
+        },
+        {
+          "step_num": "04",
+          "name": "Booking",
+          "title": "A fair conversation",
+          "icon": "Handshake",
+          "text": "We talk through the unit, the price and the payment plan openly, and put every figure in writing.",
+          "care": [
+            "A clear cost sheet",
+            "Payment plans explained"
+          ]
+        },
+        {
+          "step_num": "05",
+          "name": "Agreement",
+          "title": "Paperwork, explained",
+          "icon": "Signature",
+          "text": "We prepare the agreement for sale and walk you through each clause before you sign.",
+          "care": [
+            "Agreement drafted for you",
+            "Every clause explained"
+          ]
+        },
+        {
+          "step_num": "06",
+          "name": "Home loan",
+          "title": "Help with your loan",
+          "icon": "Bank",
+          "text": "We help you gather and prepare the documents your bank needs and stay in touch with them until the loan is sanctioned.",
+          "care": [
+            "Document checklist and preparation",
+            "Coordination with your bank"
+          ]
+        },
+        {
+          "step_num": "07",
+          "name": "Registration",
+          "title": "Registration, handled",
+          "icon": "Stamp",
+          "text": "We schedule the registration, prepare the papers and guide you through the day itself.",
+          "care": [
+            "Scheduling and paperwork",
+            "Guidance on the day"
+          ]
+        },
+        {
+          "step_num": "08",
+          "name": "Handover",
+          "title": "Keys, and beyond",
+          "icon": "Key",
+          "text": "A walkthrough of your finished home, the keys, and a team that stays a call away after you move in.",
+          "care": [
+            "A handover walkthrough",
+            "Support after possession"
+          ]
+        }
+      ],
+      "ui_styling": {
+        "diamond_marker": "rotate-45 border h-12 w-12 lg:h-14 lg:w-14",
+        "active_marker": "border-brass-light bg-brass-light text-night shadow-[0_0_30px_rgba(216,192,138,0.35)]",
+        "completed_marker": "border-brass/70 bg-night text-brass-light",
+        "upcoming_marker": "border-cream/20 bg-night text-cream/50",
+        "route_timeline": "bg-gradient-to-b from-brass-light via-brass to-brass/40"
+      }
+    },
+    "section_6_values": {
+      "name": "Values / Standards Section",
+      "aria_labelledby": "values-title",
+      "classes": "theme-day bg-parchment py-24 lg:py-32",
+      "headline": "What we hold ourselves to.",
+      "values": [
+        {
+          "title": "Quality without compromise",
+          "text": "A zero-compromise approach to design, materials and execution."
+        },
+        {
+          "title": "We deliver what we promise",
+          "text": "Trust is earned through action: delivering what we promise, as committed."
+        },
+        {
+          "title": "One of Siliguri's first developers",
+          "text": "We have led with new ideas, better planning and higher standards since 1998."
+        },
+        {
+          "title": "Green, and certified",
+          "text": "CP Greens is Siliguri's first IGBC-certified green building."
+        }
+      ]
+    },
+    "section_7_guiding_principles": {
+      "name": "Guiding Principles (Mission, Vision, Philosophy)",
+      "classes": "theme-night bg-night",
+      "headline": "What guides every build.",
+      "principles": [
+        {
+          "role": "Mission",
+          "statement": "Deliver without compromise."
+        },
+        {
+          "role": "Vision",
+          "statement": "Redefine how quality is experienced."
+        },
+        {
+          "role": "Philosophy",
+          "statement": "Precision in every detail."
+        }
+      ]
+    },
+    "section_8_projects_showcase": {
+      "name": "Featured Landmarks",
+      "id": "featured",
+      "aria_labelledby": "featured-title",
+      "classes": "theme-day scroll-mt-20 bg-parchment py-24 lg:py-32",
+      "eyebrow": "Projects",
+      "headline": "Featured landmarks",
+      "subtext": "Two homes under construction and a commercial landmark delivered, all built to the same standard.",
+      "featured_projects": [
+        {
+          "slug": "cp-greens",
+          "name": "CP Greens",
+          "tagline": "The Great Upgrade",
+          "status": "ongoing",
+          "category": "residential",
+          "location": "Thakur Panchanan Road, Ward 42, Don Bosco Colony, Siliguri 734008",
+          "units": 94,
+          "configuration": "3 & 4 BHK apartments and duplex, G+8",
+          "rera": "WBRERA/P/JAL/2023/000319",
+          "tint": "estate",
+          "rating": "IGBC Gold Certified",
+          "summary": "An environment perfectly designed for luxurious and green, peaceful living. Siliguri's first IGBC-certified green building.",
+          "card_image": {
+            "src": "/_next/static/media/hero-dusk.0a3f64a6.jpg",
+            "alt": "CP Greens at dusk, with the three residential blocks lit against an orange sky"
+          },
+          "href": "/projects/cp-greens",
+          "cta_label": "Details",
+          "developer": "CP Real Estate",
+          "headline": [
+            "Own the key that turns",
+            "moments to memories."
+          ],
+          "hero_facts": [
+            "3 & 4 BHK apartments and duplex",
+            "Ground plus 8 floors",
+            "IGBC Gold certified"
+          ],
+          "brochure_url": "/brochures/cp-greens-brochure.pdf",
+          "amenities": [
+            {
+              "title": "Swimming pool",
+              "text": "A swimming pool with a sun deck beside the clubhouse."
+            },
+            {
+              "title": "Games room",
+              "text": "Peace of mind with games."
+            },
+            {
+              "title": "TV lounge",
+              "text": "Unwind in a comfortable setting designed for relaxation, entertainment and quality time with loved ones."
+            },
+            {
+              "title": "Indoor gym",
+              "text": "For the fitness fanatics, a gym where residents can work up a sweat with modern equipment."
+            },
+            {
+              "title": "Yoga and meditation",
+              "text": "A gentler way to tone body and mind."
+            },
+            {
+              "title": "Childcare",
+              "text": "From a children's play area to a kids' creche, we understand the needs of your little ones."
+            },
+            {
+              "title": "Outdoor play",
+              "text": "Indoor as well as outdoor spaces for the holistic development of the little ones."
+            },
+            {
+              "title": "Community hall",
+              "text": "Where residents come together to meet, celebrate and share interests."
+            }
+          ]
+        },
+        {
+          "slug": "europa",
+          "name": "EUROPA",
+          "tagline": "The Ultimate Lifestyle",
+          "status": "ongoing",
+          "category": "residential",
+          "location": "Siliguri, West Bengal",
+          "configuration": "G+2 townhouses, 4 BHK residences",
+          "rera": "WBRERA/P/DAR/2023/000259",
+          "tint": "ink",
+          "summary": "Townhouses that bring the discipline of European architecture to the warmth of vibrant Indian living, with a private EQUINOX clubhouse at the heart.",
+          "card_image": {
+            "src": "/_next/static/media/gate-hero.9ebc8aa1.jpg",
+            "alt": "The illuminated EUROPA entrance gate and the EQUINOX clubhouse court at night"
+          },
+          "href": "/projects/europa",
+          "cta_label": "Details",
+          "developer": "CP Real Estate and Green Hill Group",
+          "headline": [
+            "Siliguri's most",
+            "coveted homes."
+          ],
+          "hero_facts": [
+            "G+2 townhouses",
+            "4 BHK luxury residences",
+            "7 star living"
+          ],
+          "specs": [
+            {
+              "value": 2,
+              "prefix": "G+",
+              "label": "Storeys of townhouse living"
+            },
+            {
+              "value": 4,
+              "suffix": " BHK",
+              "label": "Luxury townhouse residences"
+            },
+            {
+              "value": 7,
+              "suffix": " star",
+              "label": "Living standard"
+            },
+            {
+              "value": "~52,000",
+              "suffix": " sft",
+              "label": "Clubhouse and indoor amenities"
+            }
+          ],
+          "amenities": [
+            {
+              "title": "Banquet hall",
+              "text": "Celebrate in style. Grand celebrations, timeless memories."
+            },
+            {
+              "title": "Infinity pool",
+              "text": "Sunset swims in an infinity pool."
+            },
+            {
+              "title": "Fitness studio",
+              "text": "Never give up. Fitness, just the way you like it."
+            },
+            {
+              "title": "Games room",
+              "text": "Billiards, board games and a place to unwind with friends."
+            },
+            {
+              "title": "Kids' play area",
+              "text": "A 10,000 sft Panchatantra-themed play area with soft, padded flooring, sand and play water."
+            }
+          ]
+        },
+        {
+          "slug": "cp-plaza",
+          "name": "CP Plaza",
+          "status": "completed",
+          "category": "commercial",
+          "location": "Shivmandir, Siliguri",
+          "configuration": "Retail and commercial",
+          "summary": "A glass-fronted retail and commercial building, now home to Style Bazaar, V-Mart and Apollo Diagnostics.",
+          "card_image": {
+            "src": "/_next/static/media/cp-plaza.32cd052f.jpg",
+            "alt": "CP Plaza at dusk: a glass-fronted commercial building with a lit canopy"
+          },
+          "href": "/projects/cp-plaza",
+          "cta_label": "View project",
+          "tenants": [
+            "Style Bazaar",
+            "V-Mart",
+            "Apollo Diagnostics"
+          ]
+        }
+      ],
+      "other_ongoing_projects": [
+        {
+          "slug": "cp-anando",
+          "name": "CP Anando",
+          "tagline": "Ease of Living",
+          "status": "ongoing",
+          "category": "residential",
+          "configuration": "2 & 3 BHK apartments",
+          "summary": "Thoughtfully planned 2 and 3 BHK residences designed around ease of everyday living.",
+          "hero_image": "/_next/static/media/cp-anando-hero.7cfe87d0.jpg"
+        }
+      ],
+      "historical_portfolio_count": 20
+    },
+    "section_9_commercial_leasing": {
+      "name": "Commercial Leasing Banner",
+      "aria_labelledby": "leasing-title",
+      "classes": "theme-night bg-ink py-24 lg:py-32",
+      "eyebrow": "Commercial",
+      "headline": "Commercial space for Siliguri's businesses.",
+      "subtext": "Offices, shops and retail floors across the city, from Checkpost to Shivmandir. Ask us about current availability.",
+      "highlights": [
+        {
+          "title": "Milestone, Checkpost",
+          "text": "101 commercial units, delivered in 2013."
+        },
+        {
+          "title": "Style Bazaar, V-Mart, Apollo Diagnostics",
+          "text": "Brands now at CP Plaza"
+        },
+        {
+          "title": "Checkpost to Shivmandir",
+          "text": "Locations that Siliguri knows"
+        }
+      ],
+      "cta": {
+        "label": "Commercial leasing",
+        "href": "/commercial"
+      }
+    },
+    "section_10_awards_recognition": {
+      "name": "Industry Recognition & Awards",
+      "aria_labelledby": "recognition-title",
+      "classes": "theme-day bg-white py-24 lg:py-32",
+      "headline": "Recognised by the industry.",
+      "affiliation": "Member, CREDAI North Bengal",
+      "featured_award": {
+        "title": "IGBC Gold",
+        "project": "CP Greens",
+        "tag": "( Latest )",
+        "description": "Siliguri's first IGBC-certified green building, rated Gold under the Green Homes Rating System by the Indian Green Building Council.",
+        "image": {
+          "src": "/_next/static/media/igbc-award-1.f6110698.jpg",
+          "alt": "CP Group directors receiving the IGBC Gold rating award for CP Greens on stage at the launch of the IGBC Siliguri Chapter"
+        }
+      },
+      "award_list": [
+        {
+          "title": "Certificate of Excellence",
+          "year": "2024",
+          "issuer": "Cullinary Superstars",
+          "details": "Awarded for eco-friendly housing at Cullinary Superstars."
+        },
+        {
+          "title": "Icon of North Bengal Awards",
+          "year": "2023",
+          "issuer": "Siliguri Chapter",
+          "details": "Excellence in residential development."
+        },
+        {
+          "title": "Presidential Special Recognition",
+          "year": "2023",
+          "issuer": "CREDAI",
+          "details": "Special contribution to regional real estate."
+        },
+        {
+          "title": "Sewak Sakha",
+          "year": "2022",
+          "issuer": "Social Impact",
+          "details": "Community development recognition."
+        },
+        {
+          "title": "Realtouch 21 Appreciation",
+          "year": "2021",
+          "issuer": "Realtouch",
+          "details": "Project delivery milestone award."
+        }
+      ]
+    },
+    "section_11_resident_words": {
+      "name": "Testimonials / Resident Films",
+      "aria_labelledby": "testimonials-title",
+      "classes": "theme-night bg-night py-24 lg:py-32",
+      "headline": "In our residents' words.",
+      "films": [
+        {
+          "id": "resident-1",
+          "title": "Hear from our homeowners",
+          "duration": "1:03",
+          "role": "CP Greens resident",
+          "aspect_ratio": "0.8 (4:5)",
+          "poster": "/videos/residents/resident-1.jpg",
+          "video_src": "/videos/residents/resident-1.mp4"
+        },
+        {
+          "id": "resident-2",
+          "title": "Why we chose CP Greens",
+          "duration": "0:43",
+          "role": "CP Greens resident",
+          "aspect_ratio": "0.8 (4:5)",
+          "poster": "/videos/residents/resident-2.jpg",
+          "video_src": "/videos/residents/resident-2.mp4"
+        },
+        {
+          "id": "resident-3",
+          "title": "Our experience",
+          "duration": "0:46",
+          "role": "CP Greens resident",
+          "aspect_ratio": "0.8 (4:5)",
+          "poster": "/videos/residents/resident-3.jpg",
+          "video_src": "/videos/residents/resident-3.mp4"
+        },
+        {
+          "id": "resident-4",
+          "title": "A family's view",
+          "duration": "1:05",
+          "role": "CP Greens resident",
+          "aspect_ratio": "0.5625 (9:16 vertical reel)",
+          "poster": "/videos/residents/resident-4.jpg",
+          "video_src": "/videos/residents/resident-4.mp4"
+        }
+      ]
+    },
+    "section_12_journal": {
+      "name": "Journal / Articles",
+      "aria_labelledby": "journal-title",
+      "classes": "theme-day bg-parchment py-24 lg:py-32",
+      "headline": "From the journal.",
+      "subtext": "Practical reading for anyone buying a home in Siliguri.",
+      "articles": [
+        {
+          "title": "98+ Flats for Big Families Available in Siliguri | CP Greens",
+          "tag": "CP Greens",
+          "read_time": "4 min read",
+          "summary": "Finding the perfect home for a large family requires more than just additional bedrooms—it demands thoughtful space planning, privacy, and community living. CP Greens offers spacious layouts built for generational comfort.",
+          "href": "/blog/flats-for-big-families-siliguri"
+        },
+        {
+          "title": "Green Building Certificate (IGBC), Benefits of IGBC Certified Homes | CP Greens",
+          "tag": "3bhk Flats for sale in siliguri",
+          "read_time": "5 min read",
+          "summary": "Buying a home today isn’t just about choosing the right location or the perfect floor plan. It is about investing in a lifestyle that promotes health, well-being, and environmental sustainability with lower utility costs.",
+          "href": "/blog/green-building-certificate-igbc-benefits"
+        },
+        {
+          "title": "98+ Flats for Sale in Siliguri | Luxury 3 & 4 BHK Apartments at CP Greens",
+          "tag": "CP Greens",
+          "read_time": "4 min read",
+          "summary": "Experience luxury living in the heart of Siliguri. Discover G+8 luxury apartments, unmatched clubhouse amenities, and high-quality construction delivered on schedule.",
+          "href": "/blog/flats-for-sale-in-siliguri"
+        }
+      ],
+      "cta": {
+        "label": "All articles",
+        "href": "/blog"
+      }
+    },
+    "section_13_cta_strip": {
+      "name": "Site Visit & Commercial Callout Strip",
+      "classes": "theme-day bg-parchment py-16 lg:py-24",
+      "headline": "Book a site visit. Or ask about commercial space.",
+      "subtext": "Our team will call you within 24 hours to confirm.",
+      "ctas": [
+        {
+          "label": "Enquire now",
+          "href": "/contact",
+          "variant": "primary"
+        },
+        {
+          "label": "+91 97333 88879",
+          "href": "tel:+919733388879",
+          "variant": "outline"
+        }
+      ]
+    },
+    "section_14_contact_enquiry_form": {
+      "name": "Contact & Visit / Interactive Enquiry Form",
+      "id": "visit",
+      "aria_labelledby": "contact-title",
+      "classes": "theme-night scroll-mt-20 bg-night py-24 lg:py-32",
+      "eyebrow": "Contact",
+      "headline": "Start a conversation.",
+      "subtext": "Tell us what you are looking for. Our team will call you within 24 hours.",
+      "form": {
+        "method": "POST",
+        "action": "Server Action (Next.js createServerReference)",
+        "fields": [
+          {
+            "name": "name",
+            "label": "Full name",
+            "type": "text",
+            "placeholder": "Your full name",
+            "required": true,
+            "classes": "w-full border border-cream/30 bg-night/60 px-4 py-3.5 text-[length:var(--fs-base)] text-cream placeholder-cream/40 focus:border-brass focus:outline-none"
+          },
+          {
+            "name": "phone",
+            "label": "Phone number",
+            "type": "tel",
+            "placeholder": "+91 98765 43210",
+            "helper": "10-digit Indian mobile, +91 optional",
+            "required": true,
+            "classes": "w-full border border-cream/30 bg-night/60 px-4 py-3.5 text-[length:var(--fs-base)] text-cream placeholder-cream/40 focus:border-brass focus:outline-none"
+          },
+          {
+            "name": "project",
+            "label": "Project of interest",
+            "type": "select",
+            "options": [
+              {
+                "value": "cp-greens",
+                "label": "CP Greens (Thakur Panchanan Road)"
+              },
+              {
+                "value": "europa",
+                "label": "EUROPA Townhouses"
+              },
+              {
+                "value": "cp-plaza",
+                "label": "CP Plaza (Shivmandir)"
+              },
+              {
+                "value": "commercial",
+                "label": "Commercial space leasing"
+              },
+              {
+                "value": "general",
+                "label": "General inquiry"
+              }
+            ],
+            "required": false,
+            "classes": "w-full border border-cream/30 bg-night/60 px-4 py-3.5 text-[length:var(--fs-base)] text-cream focus:border-brass focus:outline-none"
+          },
+          {
+            "name": "message",
+            "label": "Requirements or questions",
+            "type": "textarea",
+            "placeholder": "Tell us about your requirements, preferred unit size, or schedule a site visit...",
+            "rows": 4,
+            "required": false,
+            "classes": "w-full border border-cream/30 bg-night/60 px-4 py-3.5 text-[length:var(--fs-base)] text-cream placeholder-cream/40 focus:border-brass focus:outline-none"
+          },
+          {
+            "name": "website",
+            "label": "Leave this field empty (honeypot)",
+            "type": "text",
+            "hidden": true
+          }
+        ],
+        "submit_button": {
+          "idle_text": "Send message",
+          "loading_text": "Sending...",
+          "classes": "relative inline-flex items-center justify-center gap-3 px-8 py-4 text-[length:var(--fs-xs)] font-normal uppercase tracking-[0.2em] transition-colors duration-500 active:translate-y-px disabled:opacity-50 whitespace-nowrap bg-brass text-night hover:bg-brass-light w-full"
+        }
+      }
+    },
+    "footer": {
+      "name": "Site Footer",
+      "classes": "relative overflow-hidden bg-night text-cream/70",
+      "brand": {
+        "logo": "/brand/cp-group-logo-reverse.svg",
+        "width": 1290,
+        "height": 680,
+        "classes": "h-20 sm:h-24 w-auto",
+        "description": "CP Real Estate is a Siliguri developer of residences and commercial spaces, building trust through delivery since 1998."
+      },
+      "social_links": [
+        {
+          "platform": "Instagram",
+          "href": "https://www.instagram.com/cprealestate.in/"
+        },
+        {
+          "platform": "Facebook",
+          "href": "https://www.facebook.com/cprealestate.in/"
+        },
+        {
+          "platform": "YouTube",
+          "href": "https://www.youtube.com/@CPRealEstateSlg"
+        },
+        {
+          "platform": "LinkedIn",
+          "href": "https://in.linkedin.com/company/cp-real-estate-siliguri"
+        }
+      ],
+      "nav_columns": {
+        "projects": [
+          {
+            "label": "CP Greens",
+            "href": "/projects/cp-greens"
+          },
+          {
+            "label": "EUROPA",
+            "href": "/projects/europa"
+          },
+          {
+            "label": "CP Anando",
+            "href": "/projects/cp-anando"
+          },
+          {
+            "label": "Completed projects",
+            "href": "/projects?status=completed"
+          }
+        ],
+        "company": [
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Commercial leasing",
+            "href": "/commercial"
+          },
+          {
+            "label": "Gallery",
+            "href": "/gallery"
+          },
+          {
+            "label": "Journal",
+            "href": "/blog"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      "visit_us": {
+        "address": [
+          "2nd Floor, Block II, Office Block, The Universe",
+          "Behind Himalayan Kanya Abasan, Eastern By-pass",
+          "Siliguri, West Bengal 734008"
+        ],
+        "email": "inquiry@cprealestate.in",
+        "phone": "+91 97333 88879",
+        "phone_href": "tel:+919733388879"
+      },
+      "rera_numbers": [
+        {
+          "project": "CP Greens",
+          "rera": "WBRERA/P/JAL/2023/000319"
+        },
+        {
+          "project": "EUROPA",
+          "rera": "WBRERA/P/DAR/2023/000259"
+        }
+      ],
+      "bottom_bar": {
+        "copyright": "© 2026 CP Real Estate. All rights reserved. CREDAI North Bengal.",
+        "legal_links": [
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms",
+            "href": "/terms"
+          },
+          {
+            "label": "RERA Disclosure",
+            "href": "/rera"
+          }
+        ]
+      }
+    }
+  },
+  "asset_inventory": {
+    "download_directory": "extracted/assets/",
+    "total_downloaded_count": 114,
+    "total_downloaded_size_bytes": 118004686,
+    "categories": {
+      "fonts": [
+        {
+          "file": "/_next/static/media/eaead17c7dbfcd5d-s.p.woff2",
+          "family": "Playfair Display",
+          "weight": "600"
+        },
+        {
+          "file": "/_next/static/media/78d0dd042ac6d54d-s.p.woff2",
+          "family": "Playfair Display",
+          "weight": "400"
+        },
+        {
+          "file": "/_next/static/media/9dd75fadc5b3df29-s.p.woff2",
+          "family": "Jost",
+          "weight": "300/400/500"
+        },
+        {
+          "file": "/_next/static/media/000030d1699f2fb3-s.woff2",
+          "family": "Playfair Display",
+          "subset": "cyrillic"
+        },
+        {
+          "file": "/_next/static/media/19150647d2c2f572-s.woff2",
+          "family": "Playfair Display",
+          "subset": "vietnamese"
+        },
+        {
+          "file": "/_next/static/media/1926da171a0ba1a5-s.woff2",
+          "family": "Playfair Display",
+          "subset": "latin-ext"
+        },
+        {
+          "file": "/_next/static/media/28a2004cf8372660-s.woff2",
+          "family": "Playfair Display",
+          "weight": "600",
+          "subset": "latin-ext"
+        },
+        {
+          "file": "/_next/static/media/47f136985ef5b5cb-s.woff2",
+          "family": "Playfair Display",
+          "weight": "600",
+          "subset": "cyrillic"
+        },
+        {
+          "file": "/_next/static/media/4ead58c4dcc3f285-s.woff2",
+          "family": "Playfair Display",
+          "weight": "600",
+          "subset": "vietnamese"
+        },
+        {
+          "file": "/_next/static/media/5bbac197f803cc34-s.woff2",
+          "family": "Jost",
+          "subset": "latin-ext"
+        },
+        {
+          "file": "/_next/static/media/b8c37bb59076c047-s.woff2",
+          "family": "Jost",
+          "subset": "cyrillic"
+        }
+      ],
+      "brand_and_icons": [
+        {
+          "file": "/brand/cp-group-logo-reverse.svg",
+          "usage": "White/cream logo for dark backgrounds"
+        },
+        {
+          "file": "/brand/cp-group-logo-primary.svg",
+          "usage": "Primary logo for light backgrounds"
+        },
+        {
+          "file": "/icon.svg",
+          "usage": "Favicon / site icon"
+        },
+        {
+          "file": "/images/placeholder-project.svg",
+          "usage": "Project card placeholder"
+        }
+      ],
+      "hero_media": [
+        {
+          "file": "/videos/home/hero-d.mp4",
+          "usage": "Cinematic desktop hero video (6.2 MB)"
+        },
+        {
+          "file": "/videos/home/hero-m.mp4",
+          "usage": "Cinematic mobile hero video (3.1 MB)"
+        },
+        {
+          "file": "/_next/static/media/hero-city.3e5de3f8.jpg",
+          "usage": "Static hero background image"
+        },
+        {
+          "file": "/_next/static/media/hero-poster.b0038043.jpg",
+          "usage": "Hero video fallback poster"
+        }
+      ],
+      "project_images_and_renders": [
+        {
+          "file": "/_next/static/media/hero-dusk.0a3f64a6.jpg",
+          "usage": "CP Greens dusk view"
+        },
+        {
+          "file": "/_next/static/media/cp-greens-aerial-blocks.58b162b7.jpg",
+          "usage": "CP Greens 3 blocks aerial"
+        },
+        {
+          "file": "/_next/static/media/cp-greens-landscape.6a4d7771.jpg",
+          "usage": "CP Greens landscape garden"
+        },
+        {
+          "file": "/_next/static/media/cp-greens-pool-family.d9a17327.jpg",
+          "usage": "CP Greens pool view"
+        },
+        {
+          "file": "/_next/static/media/cp-greens-gym.e1991ea1.jpg",
+          "usage": "CP Greens gym"
+        },
+        {
+          "file": "/_next/static/media/cp-greens-street-view.3d410820.jpg",
+          "usage": "CP Greens street view"
+        },
+        {
+          "file": "/_next/static/media/gate-hero.9ebc8aa1.jpg",
+          "usage": "EUROPA gate and Equinox clubhouse at night"
+        },
+        {
+          "file": "/_next/static/media/townhouse-golden.ffe0769d.jpg",
+          "usage": "EUROPA townhouses in golden hour"
+        },
+        {
+          "file": "/_next/static/media/townhouse-front.196799cf.jpg",
+          "usage": "EUROPA townhouse facade"
+        },
+        {
+          "file": "/_next/static/media/court-aerial.d94eac27.jpg",
+          "usage": "EUROPA court aerial view"
+        },
+        {
+          "file": "/_next/static/media/court-day.a1158b04.jpg",
+          "usage": "EUROPA court daytime"
+        },
+        {
+          "file": "/_next/static/media/court-dusk.213bd301.jpg",
+          "usage": "EUROPA court dusk"
+        },
+        {
+          "file": "/_next/static/media/pool-dusk.3a6df6f3.jpg",
+          "usage": "EUROPA infinity pool at dusk"
+        },
+        {
+          "file": "/_next/static/media/pool-view.b48c1ace.jpg",
+          "usage": "EUROPA pool view"
+        },
+        {
+          "file": "/_next/static/media/row-dusk-wide.cc16e56f.jpg",
+          "usage": "EUROPA townhouse row wide"
+        },
+        {
+          "file": "/_next/static/media/banquet-hall.1359d9a2.jpg",
+          "usage": "EUROPA banquet hall"
+        },
+        {
+          "file": "/_next/static/media/cp-plaza.32cd052f.jpg",
+          "usage": "CP Plaza dusk view"
+        },
+        {
+          "file": "/_next/static/media/cp-plaza-2.f0b8d8ad.jpg",
+          "usage": "CP Plaza exterior 2"
+        },
+        {
+          "file": "/_next/static/media/cp-plaza-photo.44f67970.jpg",
+          "usage": "CP Plaza store photo"
+        },
+        {
+          "file": "/_next/static/media/cp-anando-hero.7cfe87d0.jpg",
+          "usage": "CP Anando hero render"
+        },
+        {
+          "file": "/_next/static/media/office-lobby.ad1db994.jpg",
+          "usage": "CP Group Siliguri office reception lobby"
+        }
+      ],
+      "awards_and_certificates": [
+        {
+          "file": "/_next/static/media/igbc-award-1.f6110698.jpg",
+          "usage": "IGBC Gold rating award ceremony"
+        },
+        {
+          "file": "/_next/static/media/igbc-award-2.57a19536.jpg",
+          "usage": "IGBC award presentation"
+        },
+        {
+          "file": "/_next/static/media/igbc-certificate.339b8812.jpg",
+          "usage": "IGBC Gold official certificate"
+        },
+        {
+          "file": "/_next/static/media/trophy.0e940e2d.jpg",
+          "usage": "Excellence trophy award"
+        },
+        {
+          "file": "/_next/static/media/milestone.e9221389.jpg",
+          "usage": "Milestone commercial building"
+        }
+      ],
+      "resident_testimonial_media": [
+        {
+          "file": "/videos/residents/resident-1.mp4",
+          "poster": "/videos/residents/resident-1.jpg",
+          "title": "Hear from our homeowners"
+        },
+        {
+          "file": "/videos/residents/resident-2.mp4",
+          "poster": "/videos/residents/resident-2.jpg",
+          "title": "Why we chose CP Greens"
+        },
+        {
+          "file": "/videos/residents/resident-3.mp4",
+          "poster": "/videos/residents/resident-3.jpg",
+          "title": "Our experience"
+        },
+        {
+          "file": "/videos/residents/resident-4.mp4",
+          "poster": "/videos/residents/resident-4.jpg",
+          "title": "A family's view"
+        }
+      ],
+      "project_video_tours": [
+        {
+          "file": "/videos/cp-greens/amenities-tour.mp4",
+          "poster": "/videos/cp-greens/amenities-tour.jpg",
+          "title": "CP Greens Amenities Tour"
+        },
+        {
+          "file": "/videos/cp-greens/director-intro.mp4",
+          "poster": "/videos/cp-greens/director-intro.jpg",
+          "title": "CP Greens Director Introduction"
+        },
+        {
+          "file": "/videos/cp-greens/everyday-life.mp4",
+          "poster": "/videos/cp-greens/everyday-life.jpg",
+          "title": "Everyday Life at CP Greens"
+        },
+        {
+          "file": "/videos/cp-greens/walkthrough.mp4",
+          "poster": "/videos/cp-greens/walkthrough.jpg",
+          "title": "CP Greens Full Walkthrough"
+        },
+        {
+          "file": "/videos/europa/construction-to-home.mp4",
+          "poster": "/videos/europa/construction-to-home.jpg",
+          "title": "EUROPA: Construction to Home"
+        },
+        {
+          "file": "/videos/europa/lifestyle-tour.mp4",
+          "poster": "/videos/europa/lifestyle-tour.jpg",
+          "title": "EUROPA Lifestyle Tour"
+        },
+        {
+          "file": "/videos/europa/serenity.mp4",
+          "poster": "/videos/europa/serenity.jpg",
+          "title": "EUROPA Serenity Tour"
+        },
+        {
+          "file": "/videos/europa/townhouse-tour.mp4",
+          "poster": "/videos/europa/townhouse-tour.jpg",
+          "title": "EUROPA Townhouse Tour"
+        },
+        {
+          "file": "/videos/europa/where-you-stay.mp4",
+          "poster": "/videos/europa/where-you-stay.jpg",
+          "title": "EUROPA: Where You Stay"
+        }
+      ],
+      "brochures": [
+        {
+          "file": "/brochures/cp-greens-brochure.pdf",
+          "size_bytes": 24610359,
+          "title": "CP Greens Official Brochure PDF"
+        }
+      ]
+    }
+  }
+}
