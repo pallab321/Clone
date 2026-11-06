@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetUrl } from '../utils/assets';
 
 export const Footer: React.FC = () => {
   return (
@@ -8,7 +9,10 @@ export const Footer: React.FC = () => {
         <div className="sm:col-span-2 lg:col-span-5">
           <a className="inline-flex shrink-0 items-center" href="/">
             <img
-              src="/brand/cp-group-logo-reverse.svg"
+              src={getAssetUrl('brand/cp-group-logo-reverse.svg')}
+              onError={(e) => {
+                e.currentTarget.src = 'https://clone.pallabnaiya.online/brand/cp-group-logo-reverse.svg';
+              }}
               alt="CP Group, CP Real Estate, We build trust"
               width={1290}
               height={680}

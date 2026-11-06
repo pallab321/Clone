@@ -1,6 +1,7 @@
 import React from 'react';
 import { Building, Store, ArrowUpRight } from 'lucide-react';
 import { CP_COMPANY } from '../data/cpData';
+import { getAssetUrl } from '../utils/assets';
 
 export const CommercialSection: React.FC = () => {
   return (
@@ -78,7 +79,7 @@ export const CommercialSection: React.FC = () => {
           <div className="lg:col-span-5">
             <div className="relative rounded-lg overflow-hidden border border-[#f4eee2]/15 shadow-2xl bg-[#0b1220]">
               <img
-                src="/images/projects/cp-plaza/cp-plaza.jpg"
+                src={getAssetUrl('images/projects/cp-plaza/cp-plaza.jpg')}
                 alt="CP Plaza Commercial Landmark in Siliguri"
                 className="w-full h-80 lg:h-[480px] object-cover"
               />

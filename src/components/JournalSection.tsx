@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetUrl } from '../utils/assets';
 
 export const JournalSection: React.FC = () => {
   const articles = [
@@ -74,7 +75,7 @@ export const JournalSection: React.FC = () => {
                 {/* 16:10 Aspect Ratio Image Container */}
                 <div className="relative aspect-[16/10] overflow-hidden bg-[#172238] rounded-none">
                   <img
-                    src={art.image}
+                    src={getAssetUrl(art.image)}
                     alt={art.imageAlt}
                     className="w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.04]"
                   />

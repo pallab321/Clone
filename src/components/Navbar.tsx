@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
+import { getAssetUrl } from '../utils/assets';
 
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,7 +35,10 @@ export const Navbar: React.FC = () => {
         {/* Official Brand SVG Logo */}
         <a className="inline-flex shrink-0 items-center" href="/">
           <img
-            src="/brand/cp-group-logo-reverse.svg"
+            src={getAssetUrl('brand/cp-group-logo-reverse.svg')}
+            onError={(e) => {
+              e.currentTarget.src = 'https://clone.pallabnaiya.online/brand/cp-group-logo-reverse.svg';
+            }}
             alt="CP Group, CP Real Estate, We build trust"
             width={1290}
             height={680}

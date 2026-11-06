@@ -40,3 +40,4 @@ cloudflared.exe
 *.exe
 upload_ftp.cjs
 *.tmp
+*.zip

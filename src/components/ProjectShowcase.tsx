@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PROJECTS } from '../data/cpData';
 import { MapPin, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { getAssetUrl } from '../utils/assets';
 
 export const ProjectShowcase: React.FC = () => {
   const [activeProjectTab, setActiveProjectTab] = useState<string>('cp-greens');
@@ -54,17 +55,17 @@ export const ProjectShowcase: React.FC = () => {
             <div className="absolute inset-0 z-0">
               {activeProject.scenes ? (
                 <img
-                  src={
+                  src={getAssetUrl(
                     activeProject.scenes.find(
                       (s) => s.id === (selectedScene[activeProject.slug] || activeProject.scenes![0].id)
                     )?.image || activeProject.heroImage
-                  }
+                  )}
                   alt={activeProject.heroAlt}
                   className="w-full h-full object-cover transition-opacity duration-700"
                 />
               ) : (
                 <img
-                  src={activeProject.heroImage}
+                  src={getAssetUrl(activeProject.heroImage)}
                   alt={activeProject.heroAlt}
                   className="w-full h-full object-cover"
                 />

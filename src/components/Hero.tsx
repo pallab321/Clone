@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowDown, Play, Pause } from 'lucide-react';
+import { getAssetUrl } from '../utils/assets';
 
 interface HeroSlide {
   at: number;
@@ -84,10 +85,10 @@ export const Hero: React.FC = () => {
           muted
           loop
           playsInline
-          poster="/images/hero-poster.jpg"
+          poster={getAssetUrl('images/hero-poster.jpg')}
           className="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000"
         >
-          <source src="/videos/home/hero-d.mp4" type="video/mp4" />
+          <source src={getAssetUrl('videos/home/hero-d.mp4')} type="video/mp4" />
         </video>
       </div>
 
